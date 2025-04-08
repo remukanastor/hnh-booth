@@ -99,7 +99,7 @@ function startPhotoSession() {
     .then(() => {
         currentPhotoIndex = 0;
         photoCounter.textContent = currentPhotoIndex;
-        instruction.textContent = "Get ready for your photos!";
+        instruction.textContent = "Bersiaplah untuk foto Anda!";
         
         // Start the automatic photo capture process with a 3-second delay
         setTimeout(() => {
