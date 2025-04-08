@@ -222,7 +222,7 @@ function capturePhoto() {
         showScreen(photosPreview);
     } else {
         // Start countdown for next photo
-        instruction.textContent = `Get ready for photo ${currentPhotoIndex + 1}!`;
+        instruction.textContent = `Bersiap untuk foto ${currentPhotoIndex + 1}!`;
         
         // Wait 3 seconds before starting countdown for next photo
         setTimeout(() => {
