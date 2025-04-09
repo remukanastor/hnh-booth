@@ -344,19 +344,19 @@ function updateCollage() {
     // Apply caption style
     switch(captionStyleValue) {
         case 'classic':
-            captionClass += 'text-xl';
+            captionClass += 'text-base';
             break;
         case 'bold':
-            captionClass += 'text-xl font-bold';
+            captionClass += 'text-base font-bold';
             break;
         case 'playful':
-            captionClass += 'text-xl text-indigo-400';
+            captionClass += 'text-base text-indigo-400';
             break;
         case 'italic':
-            captionClass += 'text-xl italic';
+            captionClass += 'text-base italic';
             break;
         default:
-            captionClass += 'text-xl';
+            captionClass += 'text-base';
     }
 
     // Text color based on background
